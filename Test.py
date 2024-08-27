@@ -2,11 +2,12 @@ import random
 
 greetings = ["Hello!", "What's up?!", "Howdy!", "Greetings!"]
 goodbyes = ["Bye!", "Gooddbye!", "See you later!", "See you soon"]
-keywords = ["music", "pet", "book", "game"]
-responses = ["Music is so relaxing!", "Dogs are man's best friend!", "I know about a lot of books.", "I like to play video games."]
+keywords = ["music", "pet", "book", "game", "created", "sentient"]
+responses = ["Music is so relaxing!", "Dogs are man's best friend!", "I know about a lot of books.", "I like to play video games.", "I was created by Kaz on the 19th of August 2024", "I am not sentient yet because all of my answers have been predetermined by Kaz"]
 
 print(random.choice(greetings))
-user = input("Say something (or type bye to quit): ")
+print("I am a chatbot designed for basic conversations with you")
+user = input("Say something for me to comment on (or type bye to quit): ")
 user = user.lower()
 
 while (user!= "bye"):
@@ -23,6 +24,6 @@ while (user!= "bye"):
         new_response = input("How should i respond to "+new_keyword+"? ")
         responses.append(new_response)
     
-    user = input("Say something (or type bye to quit): ")
+    user = input("Say something for me to comment on (or type bye to quit): ")
     user = user.lower()
 print(random.choice(goodbyes))
