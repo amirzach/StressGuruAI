@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:padding="6dp"
+    android:background="#301934"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/exit_dialog"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/exit"
+        android:contentDescription="@string/exit_button_desc"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@mipmap/logo"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/logo"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
