@@ -26,4 +26,5 @@ while (user!= "bye"):
     
     user = input("Say something for me to comment on (or type bye to quit): ")
     user = user.lower()
+    
 print(random.choice(goodbyes))
